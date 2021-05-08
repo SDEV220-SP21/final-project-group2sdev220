@@ -4,6 +4,7 @@
     #get word
     #wordArray = []
     #asteriskArray = []
+
 def getWordList():
     file = open('wordList.txt', 'r')
     wordArray = []
@@ -31,7 +32,7 @@ def letterGuess(textBox, wordArray, asteriskArray):
         missedGuesses += 1
         drawHouse()
 
-getWordList()
+
             
     
         
